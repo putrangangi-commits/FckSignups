@@ -78,6 +78,6 @@ function validate(data: unknown): ToolSuggestion {
   }
 
   return {
-    toolIdea: (data_obj.toolIdea as string).trim().slice(0, 100),
+    toolIdea: (data_obj.toolIdea as string).trim().slice(0, 512),
   };
 }

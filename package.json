@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npx wrangler deploy"
   },
   "dependencies": {
     "npm-check-updates": "^23.0.1",
